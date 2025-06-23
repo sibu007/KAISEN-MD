@@ -43,7 +43,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   const mode = config.MODE
-  const ownerNumber = ['917003816486']
+  const ownerNumber = ['919434626097']
   const online = config.ALWAYS_ONLINE
 
 
@@ -70,7 +70,7 @@ const {
 
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("KAISEN~", '');
+const sessdata = config.SESSION_ID.replace("KAISEN~", 'KAISEN~asQThIDI#AsHf8nFCkMSNMBFcVRrwWTrmTCc0bL5ZbVesJ4fMyZs');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -738,7 +738,7 @@ if (!isReact && config.CUSTOM_REACT === 'true') {
                         i + '@s.whatsapp.net',
                     )}\nFN:${
                         global.OwnerName
-                    }\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click here to chat\nitem2.EMAIL;type=INTERNET:${
+                    }\nitem1.TEL;waid=${i}:${i}\nitem1.X-kiABLabel:Click here to chat\nitem2.EMAIL;type=INTERNET:${
                         global.email
                     }\nitem2.X-ABLabel:GitHub\nitem3.URL:https://github.com/${
                         global.github
